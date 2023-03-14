@@ -1,0 +1,35 @@
+#lore{
+    font-size: larger;
+}
+#rojo{
+    color: red;
+}
+#list{
+    background-color: green;
+}
+#rosa{
+    color: palevioletred;
+}
+#azul{
+    background-color: darkslateblue;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#juan{
+    background-color: darkblue;
+}
+#mover{
+    background-color: lightgoldenrodyellow;
+    border-style: solid;
+    border-width: 20px ;
+    margin-left: 600px;
+}
+#p{
+    background-color: red;
+    margin-left: 1200px;
+}
+#m{
+    background-color: orange;
+    margin-left: 1600px;
+}

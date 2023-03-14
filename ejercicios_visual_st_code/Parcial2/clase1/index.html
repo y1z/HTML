@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animaciones</title>
+
+    <style>
+        *{
+            background-color: black;
+        }
+        .padre{
+            background-color: rgb(66, 102, 12);
+            height: 500px;
+            width: 500px;
+            margin: 1vh auto;
+        }
+        .hijo{
+            background-color: blue;
+            height: 50%;
+            width: 50%;  
+          /*  transition: all 1s linear;*/
+          animation: izquierdaDerecha 1s linear 3s both infinite alternate;
+          
+        }
+        .padre:hover .hijo{
+          /*  transform: translateX(100%);
+            background-color: blueviolet; */
+            animation-play-state:paused ;
+        }
+        @keyframes izquierdaDerecha{
+            0%{
+                transform: translateX(0);
+                background-color: lightpink;
+            }
+            33%{
+                transform: translateY(100%);
+            }
+            66%{
+                transform: translateX(100%); transform:translateY(100%) ;
+            }
+            100%{
+                transform: translateX(100%);
+                background-color: indigo;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="padre">
+        <div class="hijo"></div>
+    </div>
+</body>
+</html>

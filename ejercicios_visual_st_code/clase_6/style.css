@@ -1,0 +1,25 @@
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+.grid{
+    width: 360px;
+    height: 360px;
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+
+.invader{
+    background-color: darkred;
+    border-radius: 100%;
+}
+
+.player{
+    background-color: blue;
+    border: 100%;
+}
+.laser{
+    background-color: aqua;
+}

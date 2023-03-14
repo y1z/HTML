@@ -1,0 +1,30 @@
+
+        h2{
+            color: aqua;
+        }
+        *{
+            font-family: sans-serif;
+        }
+        #2p{
+            color: blueviolet;
+
+            /*
+            * universal
+
+            #id
+
+            . class
+
+            A B {
+                todos los hijos de A que sean B
+            }
+
+            A>B{
+                todos los hijo directos de A que sean B
+            }
+
+            A,B{
+                selector or para evitar redundancia
+            }
+            */
+        }
